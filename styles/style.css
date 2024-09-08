@@ -161,12 +161,14 @@ padding-bottom: 10px;
 }
 
 .join-text p {
-    margin-bottom:200px ; /* Space between text lines */
+    gap: 5px;
+    margin-bottom:200px; /* Space between text lines */
 }
 
 .join-button {
+    margin-top: 30px;
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: #737b84;
     color: #ffffff;
     border: none;
     border-radius: 5px;
@@ -179,6 +181,48 @@ padding-bottom: 10px;
 .join-button:hover {
     background-color: #0056b3;
 }
-
-
-
+/* main forth section desing */
+.coming-soon-section {
+    background-color: #ffffff;
+    padding: 40px 0;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .text-left,
+  .text-right {
+    width: 30%;
+  }
+  
+  .text-left h3 {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .text-left h1,
+  .text-right h1 {
+    font-weight: bold;
+  }
+  
+  .text-right img {
+    margin-top: 20px;
+  }
+  
+  .image-container {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .center-image {
+    width: 80%; /* Adjust the image size to your preference */
+    border: 5px solid red;
+    border-radius: 50%;
+  }
+  

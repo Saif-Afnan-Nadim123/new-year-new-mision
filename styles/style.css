@@ -77,3 +77,58 @@
     font-weight: 700;
     margin-bottom: 10px;
 }
+
+/* this is main second section */
+.main-second-secmaition {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+
+}
+
+.mid-night-party {
+    margin-left: 140px;
+    margin-top: 140px;
+    margin-right: 140px;
+    position: relative;
+    display: inline-block;
+
+}
+
+.mid-night-party img {
+    width: 100%;
+    display: block;
+}
+
+.midnight-party-text {
+    position: absolute;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 126px;
+}
+
+.midnight-party-text h1 {
+    color: #FFF;
+font-size: 64px;
+font-style: normal;
+font-weight: 500;
+}
+.midnight-party-text p{
+    color: rgba(255, 255, 255, 0.80);
+font-size: 18px;
+font-weight: 400;
+padding-bottom: 10px;
+
+}
+.midnight-party-text button{
+    background: #ffffff;
+    height: 50px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+}
+.midnight-party-text button:hover{
+    background: #ec8989;
+}
